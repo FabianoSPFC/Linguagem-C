@@ -143,7 +143,7 @@ main() {
     
     while(opc !=5 ){
         system("cls");
-        printf("\t\t HOtel Ultima MOrada Inn \n\n");
+        printf("\t\t HOTEL SEM-LIMITES \n\n");
         printf("1-Incluir\n");
         printf("2-Alterar\n");
         printf("3-Excluir\n");
