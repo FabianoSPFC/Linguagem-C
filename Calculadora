@@ -1,4 +1,5 @@
-#include<stdio.h>#include<math.h>
+#include<stdio.h>
+#include<math.h>
 #include<locale.h>
 #include<stdlib.h>
 
@@ -192,7 +193,7 @@ void Conversao(){
 	}	
 }
 
-void GP(){
+void GP(){/*Geometria Plana*/
 	double Perimetro,Comprimento,Area,Altura,Diagonal,diagonal,Base,base,Raio,A,B,C,D,pi=3.1415;
 	int Tipo5;
 	
@@ -279,7 +280,7 @@ void GP(){
 	}
 }
 
-void GE(){
+void GE(){/*Geoemetria Espacial*/
 	double Area_Base, Area_Lateral, Area_Total, Volume, Raio; 
 	double Altura,G,Area_Superficial,pi=3.1415;
 	int Tipo6;
@@ -398,7 +399,7 @@ main() {
     setlocale(LC_ALL, "");
 	int Tipo; 
 	printf("Bem Vindo à Calculadora Virtual !!\n\n");
-	printf("Você quer fazer um cálculo de qual assunto?\n\n1-Matemática Básica\n2-Ângulos\n3-Porcentagem\n4-Conversão de Temperatura\n5-Geometeria Plana\n6-Geometria Espacial\n7-IMC\n8-Média Geral de Uma Sala\n0-Sair\n");
+	printf("Você quer fazer um cálculo de qual assunto?\n\n1-Matemática Básica\n2-Ângulos\n3-Porcentagem\n4-Conversão de Temperatura\n5-Geometeria Plana\n6-Geometria Espacial\n7-IMC\n8-Média\n0-Sair\n");
 	scanf("%d", &Tipo);
 		
 	if ((Tipo>8)|| (Tipo<0))
